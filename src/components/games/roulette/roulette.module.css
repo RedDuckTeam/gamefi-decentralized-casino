@@ -1,0 +1,23 @@
+.wheel {
+  width: 680px;
+  height: 680px;
+  border-radius: 50%;
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+  transition: transform 10s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.segment {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  clip-path: polygon(5% 0, 95% 0, 87% 100%, 13% 100%);
+}

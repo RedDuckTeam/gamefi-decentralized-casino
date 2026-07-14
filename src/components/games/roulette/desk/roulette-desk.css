@@ -1,0 +1,93 @@
+/* NUMBERS TABLE */
+
+.numbers-grid {
+  grid-column: span 14 / span 14;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 52px 4px 52px 4px 52px 4px 52px 4px 52px 4px 52px 4px 52px 4px 52px 4px 52px 4px 52px 4px 52px 4px 52px 4px 52px 4px 52px;
+  grid-template-rows: 52px 4px 52px 4px 52px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'c0 . c3 c3_c6 c6 c6_c9 c9 c9_c12 c12 c12_c15 c15 c15_c18 c18 c18_c21 c21 c21_c24 c24 c24_c27 c27 c27_c30 c30 c30_c33 c33 c33_c36 c36 . ctop'
+    'c0 . c2_c3 c2_c3_c5_c6 c5_c6 c5_c6_c8_c9 c8_c9 c8_c9_c11_c12 c11_c12 c11_c12_c14_c15 c14_c15 c14_c15_c17_c18 c17_c18 c17_c18_c20_c21 c20_c21 c20_c21_c23_c24 c23_c24 c23_c24_c26_c27 c26_c27 c26_c27_c29_c30 c29_c30 c29_c30_c32_c33 c32_c33 c32_c33_c35_c36 c35_c36 . .'
+    'c0 . c2 c2_c5 c5 c5_c8 c8 c8_c11 c11 c11_c14 c14 c14_c17 c17 c17_c20 c20 c20_c23 c23 c23_c26 c26 c26_c29 c29 c29_c32 c32 c32_c35 c35 . cmid'
+    'c0 . c1_c2 c1_c2_c4_c5 c4_c5 c4_c5_c7_c8 c7_c8 c7_c8_c10_c11 c10_c11 c10_c11_c13_c14 c13_c14 c13_c14_c16_c17 c16_c17 c16_c17_c19_c20 c19_c20 c19_c20_c22_c23 c22_c23 c22_c23_c25_c26 c25_c26 c25_c26_c28_c29 c28_c29 c28_c29_c31_c32 c31_c32 c31_c32_c34_c35 c34_c35 . .'
+    'c0 . c1 c1_c4 c4 c4_c7 c7 c7_c10 c10 c10_c13 c13 c13_c16 c16 c16_c19 c19 c19_c22 c22 c22_c25 c25 c25_c28 c28 c28_c31 c31 c31_c34 c34 . cbot';
+}
+
+.c0 {
+  grid-area: c0;
+}
+
+.c3 {
+  grid-area: c3;
+}
+
+.c2 {
+  grid-area: c2;
+}
+
+.c1 {
+  grid-area: c1;
+}
+
+.c6 {
+  grid-area: c6;
+}
+
+.c5 {
+  grid-area: c5;
+}
+
+.c4 {
+  grid-area: c4;
+}
+
+.c2_c3 {
+  grid-area: c2_c3;
+}
+
+.c2_c5 {
+  grid-area: c2_c5;
+}
+
+.c3_c6 {
+  grid-area: c3_c6;
+}
+
+.c5_c6 {
+  grid-area: c5_c6;
+}
+
+.c2_c3_c5_c6 {
+  grid-area: c2_c3_c5_c6;
+}
+
+.c1_c2 {
+  grid-area: c1_c2;
+}
+
+.c1_c4 {
+  grid-area: c1_c4;
+}
+
+.c4_c5 {
+  grid-area: c4_c5;
+}
+
+.c1_c2_c4_c5 {
+  grid-area: c1_c2_c4_c5;
+}
+
+.ctop {
+  grid-area: ctop;
+}
+
+.cmid {
+  grid-area: cmid;
+}
+
+.cbot {
+  grid-area: cbot;
+}

@@ -1,0 +1,64 @@
+.card-2 {
+  border: 1px solid #6b7280;
+  color: #f1f1f1;
+  background: linear-gradient(
+    to bottom,
+    rgba(202, 198, 203, 0.86),
+    rgba(120, 116, 121, 0.86)
+  );
+}
+
+.card-4 {
+  border: 1px solid #b77a72;
+  color: #662f19;
+  background-color: #e9d0c6;
+  box-shadow:
+    0px 0px 1px 0px rgba(0, 0, 0, 0.04),
+    0px 2px 6px 0px rgba(182, 97, 64, 0.08),
+    0px 16px 24px 0px rgba(182, 97, 64, 0.1),
+    0px 24px 32px 0px rgba(182, 97, 64, 0.14);
+}
+
+.card-10 {
+  border: 1px solid #54a2f3;
+  color: #233e66;
+  background-color: #cbdefa;
+  box-shadow:
+    0px 0px 1px 0px rgba(0, 0, 0, 0.04),
+    0px 2px 6px 0px rgba(83, 145, 239, 0.08),
+    0px 16px 24px 0px rgba(83, 145, 239, 0.1),
+    0px 24px 32px 0px rgba(83, 145, 239, 0.14);
+}
+
+.card-25 {
+  border-color: #7e57c2;
+  color: #311b92;
+  background-color: #d1c4e9;
+  box-shadow:
+    0px 0px 1px 0px rgba(0, 0, 0, 0.04),
+    0px 2px 6px 0px rgba(125, 87, 194, 0.08),
+    0px 16px 24px 0px rgba(125, 87, 194, 0.1),
+    0px 24px 32px 0px rgba(125, 87, 194, 0.14);
+}
+
+.card-50 {
+  border-color: #ffd700;
+  color: #b8860b;
+  background-color: #fff8dc;
+  box-shadow:
+    0px 0px 2px 0px rgba(0, 0, 0, 0.06),
+    0px 3px 9px 0px rgba(255, 215, 0, 0.12),
+    0px 20px 30px 0px rgba(255, 215, 0, 0.15),
+    0px 30px 40px 0px rgba(255, 215, 0, 0.18);
+}
+
+.card-100 {
+  border-color: #a41306;
+  color: #760000;
+  background-color: #ffa4ac;
+  box-shadow:
+    0px 0px 2px 0px rgba(0, 0, 0, 0.06),
+    0px 3px 9px 0px rgba(194, 24, 7, 0.12),
+    0px 20px 30px 0px rgba(194, 24, 7, 0.15),
+    0px 30px 40px 0px rgba(203, 23, 6, 0.18);
+}
