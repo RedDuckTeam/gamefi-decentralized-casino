@@ -1,4 +1,19 @@
-# Provably Fair Casino
+<p align="center">
+  <a href="https://redduck.io">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/redduck-logo-dark.svg">
+      <img src=".github/assets/redduck-logo.svg" alt="RedDuck" width="240">
+    </picture>
+  </a>
+</p>
+
+<h1 align="center">Provably Fair Casino</h1>
+
+<p align="center">
+  <b>Ten games, no house backend — every round settled on-chain with Chainlink VRF.</b>
+</p>
+
+---
 
 A **fully on-chain, decentralized casino** running on Arbitrum. There is no game server and no house backend deciding outcomes: every bet is a smart-contract transaction, every result comes from **Chainlink VRF** (verifiable random function), and every payout is executed by the contract itself. The frontend you see here is just a window into the chain — anyone can verify any game round by reading the contract events.
 
