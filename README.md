@@ -17,6 +17,21 @@
 
 A **fully on-chain, decentralized casino** running on Arbitrum. There is no game server and no house backend deciding outcomes: every bet is a smart-contract transaction, every result comes from **Chainlink VRF** (verifiable random function), and every payout is executed by the contract itself. The frontend you see here is just a window into the chain — anyone can verify any game round by reading the contract events.
 
+## Built with
+
+| Area | Technology |
+| --- | --- |
+| Framework | React 18, TypeScript, Vite |
+| Web3 | wagmi, viem, Reown AppKit |
+| Data fetching | TanStack Query, Apollo Client + The Graph, SWR, Axios |
+| UI | Tailwind CSS, Radix UI, `lucide-react`, `class-variance-authority` |
+| Forms & validation | Formik, Yup |
+| State | Zustand |
+| Physics | Matter.js (Plinko) |
+| Auth | `web3-token` (signed-message auth against the admin backend) |
+| Monitoring | Sentry |
+| Tooling | Yarn 1 (classic), ESLint, Prettier |
+
 ## About this repository
 
 This repository is a **frontend demo** of a complete white-label casino product built by [RedDuck Limited](https://redduck.io). The full product also includes the on-chain part this interface is built against — game smart contracts with Chainlink VRF integration, the referral and VIP systems, and The Graph subgraphs — which are **not** part of this repository.
@@ -60,15 +75,6 @@ Auto-bet mode resolves multiple rounds with a single VRF request — the contrac
 - **VIP ranks** — Bronze/Silver/Gold ranks lower the player's bet fee; the discount is read from the VIP contract per player.
 - **Admin panel** — a separate UI for on-chain game management: bet limits, house edge, fees, allowed tokens, blocks-to-refund, role management. Admin access is verified by contract roles plus a signed-message auth against the backend.
 
-## Tech stack
-
-- [React 18](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/), built with [Vite](https://vite.dev/)
-- [wagmi](https://wagmi.sh/) + [viem](https://viem.sh/) for contract interaction
-- [Reown AppKit](https://docs.reown.com/appkit/overview) for wallet connection
-- [TanStack Query](https://tanstack.com/query), [Apollo Client](https://www.apollographql.com/docs/react/) + [The Graph](https://thegraph.com/) for data fetching
-- [Tailwind CSS](https://tailwindcss.com/) + [Radix UI](https://www.radix-ui.com/) for UI
-- [Matter.js](https://brm.io/matter-js/) physics for the Plinko game
-
 ## Getting started
 
 Requires Node.js 22+ and Yarn 1 (classic).
@@ -108,4 +114,4 @@ With `VITE_ENV=development` the app adds a `localhost` chain (`http://localhost:
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) © RedDuck Limited
