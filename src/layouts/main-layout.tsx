@@ -121,7 +121,7 @@ export const MainLayout = () => {
           />
         </button>
         <Link to="/">
-          <img src={LogoSvg} alt="Crypto Casino" />
+          <img src={LogoSvg} alt="Onchain Arcade" />
         </Link>
         <div className="ml-auto flex items-center gap-6">
           <ConnectWalletButton />

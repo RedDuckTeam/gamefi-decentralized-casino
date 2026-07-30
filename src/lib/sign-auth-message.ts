@@ -6,8 +6,9 @@ import {
 } from 'viem';
 import Web3Token from 'web3-token';
 
-const ADMIN_MESSAGE =
-  import.meta.env.VITE_PUBLIC_ADMIN_MESSAGE ?? 'crypto-casino';
+// Bound into the signed message and verified by the backend, so it must match
+// the value the backend expects.
+const AUTH_DOMAIN = import.meta.env.VITE_AUTH_DOMAIN ?? 'crypto-casino';
 
 export const signAuthMessage = async (
   walletClient: WalletClient<Transport, Chain | undefined, Account>,
@@ -15,7 +16,7 @@ export const signAuthMessage = async (
   const token = await Web3Token.sign(
     async (msg: string) => await walletClient.signMessage({ message: msg }),
     {
-      domain: ADMIN_MESSAGE.toString(),
+      domain: AUTH_DOMAIN,
     },
   );
 

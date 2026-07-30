@@ -33,7 +33,7 @@ export const OurPartners = () => {
             Dive into our Documentation
           </div>
           <div className="mt-[16px] max-w-[464px] text-[16px] font-normal">
-            Ready to delve deeper into the world of Crypto Casino? Discover all
+            Ready to delve deeper into the world of Onchain Arcade? Discover all
             the intricate details of our platform, from game rules to
             tokenomics, in our comprehensive documentation. Unlock the secrets
             to maximizing your gaming experience and rewards.

@@ -8,8 +8,9 @@ import { SUPPORTED_CHAINS } from '../constants/supported-chains.ts';
 const projectId = import.meta.env.VITE_PROJECT_ID;
 
 const metadata = {
-  name: 'Crypto Casino',
-  description: 'Crypto Casino — provably fair on-chain casino',
+  name: 'Onchain Arcade',
+  description:
+    'Onchain Arcade — ten casino games settled on-chain with Chainlink VRF',
   url: window.location.origin,
   icons: [],
 };

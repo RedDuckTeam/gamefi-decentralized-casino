@@ -7,7 +7,7 @@
   </a>
 </p>
 
-<h1 align="center">Provably Fair Casino</h1>
+<h1 align="center">Onchain Arcade</h1>
 
 <p align="center">
   <b>Ten games, no house backend — every round settled on-chain with Chainlink VRF.</b>

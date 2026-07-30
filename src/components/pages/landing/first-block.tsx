@@ -20,10 +20,10 @@ export const FirstBlock = () => {
       />
       <div className="flex flex-col p-4 text-[#F1F1F1] backdrop-blur-2xl sm:backdrop-blur-none md:p-[80px]">
         <div className="text-[32px] font-semibold">
-          Crypto Casino: Your Fully Decentralized Casino
+          Onchain Arcade: Your Fully Decentralized Casino
         </div>
         <div className="mt-[16px] max-w-[464px] text-[16px] font-normal">
-          Step into the realm of Crypto Casino, where the fusion of
+          Step into the realm of Onchain Arcade, where the fusion of
           cryptocurrency and gaming reaches unprecedented heights in a fully
           decentralized environment. We invite you to embark on an electrifying
           journey where every wager, every spin, propels you towards
