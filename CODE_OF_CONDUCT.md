@@ -50,8 +50,7 @@ representing the community in public spaces.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to [contact@redduck.io](mailto:contact@redduck.io). All complaints
-will be reviewed and investigated promptly and fairly.
+reported to us by email. All complaints will be reviewed and investigated promptly and fairly.
 
 ## Attribution
 
