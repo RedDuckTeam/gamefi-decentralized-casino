@@ -34,9 +34,9 @@ A **fully on-chain, decentralized casino** running on Arbitrum. There is no game
 
 ## About this repository
 
-This repository is a **frontend demo** of a complete white-label casino product built by [RedDuck Limited](https://redduck.io). The full product also includes the on-chain part this interface is built against — game smart contracts with Chainlink VRF integration, the referral and VIP systems, and The Graph subgraphs — which are **not** part of this repository.
+This repository is a **frontend demo** of a complete white-label casino product built by RedDuck. The full product also includes the on-chain part this interface is built against — game smart contracts with Chainlink VRF integration, the referral and VIP systems, and The Graph subgraphs — which are **not** part of this repository.
 
-If you'd like to launch your own casino on top of this stack, we'll gladly sell you the smart contracts and help with the setup — reach out at [contact@redduck.io](mailto:contact@redduck.io).
+If you'd like to launch your own casino on top of this stack, please reach out to us.
 
 ## Why on-chain?
 
